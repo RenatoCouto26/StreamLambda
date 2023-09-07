@@ -24,7 +24,7 @@ public class MembrosTj {
 		this.portaria = portaria;
 		this.publicacao = publicacao;
 		this.vitalicio = vitalicio;
-	}
+	} 
 	/**
 	 * construtor recebe um array de 8 posiçoes, um para cada dado
 	 */
