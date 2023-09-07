@@ -25,7 +25,8 @@ public class Arquivo {
 										  .filter(arrayDadosMembro -> arrayDadosMembro[7].equals("NÃO")) // seleciona somente os arrays com valor NÃO para campo vitalicio
 										  //.map(arrayDadosMembro -> new MembrosTj(arrayDadosMembro)) //mapeia cada array para um obj MembroTJ
 										  .map(MembrosTj::new) //mapeia cada array para um obj MembroTJ
-										  .collect(Collectors.toList()); // transforma o precessamento em um List de membros									
+										  .collect(Collectors.toList()); // transforma o precessamento em um List de membros	
+										  //.toList();
 		
 		/**
 		 * organiza o List em ordem alfabética por nomes e imprime 
