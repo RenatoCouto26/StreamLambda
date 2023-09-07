@@ -22,7 +22,7 @@ public class Arquivo {
 				
 		List<MembrosTj> membros =
 				dadosDosMembros.map(dadosDoMembroTj -> dadosDoMembroTj.split(",")) // cria um array de String para cada linha com OS dados do membro
-										  .filter(arrayDadosMembro -> arrayDadosMembro[7].equals("NÃO")) // seleciona somente os arrays com valor NÃO para campo vitalicio
+										  .filter(arrayDadosMembro -> arrayDadosMembro[7].equals("SIM")) // seleciona somente os arrays com valor NÃO para campo vitalicio
 										  .map(arrayDadosMembro -> new MembrosTj(arrayDadosMembro)) //mapeia cada array para um obj MembroTJ
 											.collect(Collectors.toList()); // transforma o precessamento em um List de membros									
 		
