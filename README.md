@@ -6,5 +6,5 @@
 > aplicar mapeamentos e filtros com o uso de expressões LAMBDA. Posteriormente foi aplicado uma função de ordenação.
 >
 > A situação aqui demonstrada simula uma situação real em que um sistema pode buscar dados disponibilizados em um
-> outro sistema ou plataforma, e processar esses dados de acordo com regras de negócio defininas anteriormente para gerar
+> outro sistema ou plataforma e processar esses dados de acordo com regras de negócio defininas anteriormente para gerar
 > novas informações úteis. 
