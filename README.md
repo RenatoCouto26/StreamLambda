@@ -1,2 +1,2 @@
 # StreamLambda
->Projeto na master;
+>Clique na master para ver o projeto;
