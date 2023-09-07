@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Couto
+ *
+ */
+module StreamLambda {
+}
